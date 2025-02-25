@@ -27,26 +27,29 @@ Follow these steps to set up the environment for running this project.
 If Homebrew is not already installed, download and install it. Verify the installation by checking the version.
 
 ### 2️⃣ Install Python and Set Up a Virtual Environment
-Ensure that Python 3.10 or later is installed. python3 --version  # Ensure Python 3.10+ is installed
-If not, install the latest version. brew install python@3.11
-Then, create a virtual environment and activate it. python3 -m venv venv source venv/bin/activate
+Ensure that Python 3.10 or later is installed. 
+"python3 --version"  # Ensure Python 3.10+ is installed
+If not, install the latest version. 
+"brew install python@3.11"
+Then, create a virtual environment and activate it. 
+"python3 -m venv venv source venv/bin/activate"
 
 
 ### 3️⃣ Install Dependencies
 Install the required libraries, including Gradio, Tesseract OCR, SpaCy, Pandas, FuzzyWuzzy, and Pillow. Additionally, download the SpaCy English language model. 
-pip install gradio pytesseract spacy pandas fuzzywuzzy pillow
-python -m spacy download en_core_web_sm
+"pip install gradio pytesseract spacy pandas fuzzywuzzy pillow
+python -m spacy download en_core_web_sm"
 
 
 ### 4️⃣ Install Tesseract OCR
 Install Tesseract OCR and verify the installation. If you encounter a "Tesseract Not Found" error, manually set the path in the code.
-brew install tesseract
-tesseract --version  # Verify installation
+"brew install tesseract
+tesseract --version"  # Verify installation
 
 
 ### 5️⃣ Run the Application
 Once everything is set up, run the application to start processing handwritten prescriptions.
-python app.py
+"python app.py"
 
 
 # Prescription Processing Automation
@@ -54,15 +57,15 @@ python app.py
 ## Sample Prescription Images & Output
 
 ### 📷 Sample 1 (Handwriting Style 1)
-![Sample Image 1](images/SampleImage-1.png)
+![Sample Image 1](SampleImage-1.png)
 ✔️ **Detected Medicines:** Paracetamol 
 
 ### 📷 Sample 2 (Handwriting Style 2)
-![Sample Image 2](images/SampleImage-2.png) 
+![Sample Image 2](SampleImage-2.png) 
 ✔️ **Detected Medicines:** Losartan  
 
 ### 📷 Sample 3 (Handwriting Style 3)
-![Sample Image 3](images/SampleImage-3.png) 
+![Sample Image 3](SampleImage-3.png) 
 ✔️ **Detected Medicines:** ENALAPRIL
 
 ## 🔮 Future Improvements
