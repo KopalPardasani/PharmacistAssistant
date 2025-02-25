@@ -15,7 +15,7 @@ This system helps **pharmacists** by automating **prescription processing**:
 
 Below is the flowchart illustrating how the system processes a prescription:
 
-[System Flowchart: /Users/apple/Desktop/untitled folder/Flowchart.png]
+![System Flowchart](Flowchart.png)
 
 ---
 
@@ -54,15 +54,15 @@ python app.py
 ## Sample Prescription Images & Output
 
 ### 📷 Sample 1 (Handwriting Style 1)
-![Sample 1](/Users/apple/Desktop/untitled folder/SampleImage-1.png)  
+![Sample Image 1](images/SampleImage-1.png)
 ✔️ **Detected Medicines:** Paracetamol 
 
 ### 📷 Sample 2 (Handwriting Style 2)
-![Sample 2](/Users/apple/Desktop/untitled folder/SampleImage-2.png)  
+![Sample Image 2](images/SampleImage-2.png) 
 ✔️ **Detected Medicines:** Losartan  
 
 ### 📷 Sample 3 (Handwriting Style 3)
-![Sample 3](/Users/apple/Desktop/untitled folder/SampleImage-3.png)  
+![Sample Image 3](images/SampleImage-3.png) 
 ✔️ **Detected Medicines:** ENALAPRIL
 
 ## 🔮 Future Improvements
